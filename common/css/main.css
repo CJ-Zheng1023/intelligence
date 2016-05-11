@@ -1,7 +1,7 @@
 .main{
     position: relative;
     padding-left: 565px;
-    top: -40px;
+    margin-top: -40px;
 }
 .main .main-left{
     position: absolute;
