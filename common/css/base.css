@@ -1,0 +1,11 @@
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+body{
+    background-color: #fff;
+    min-width: 1365px;
+}
