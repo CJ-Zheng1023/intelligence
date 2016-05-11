@@ -9,3 +9,9 @@ body{
     background-color: #fff;
     min-width: 1365px;
 }
+ul.no-style{
+    list-style: none;
+}
+ul.horizontal>li{
+    float: left;
+}
