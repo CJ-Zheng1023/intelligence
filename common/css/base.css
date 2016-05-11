@@ -12,10 +12,13 @@ body{
 ul.no-style{
     list-style: none;
 }
+ul>li{
+    vertical-align: bottom;
+}
 ul.horizontal>li{
     float: left;
 }
-/** ¼æÈİie7 **/
+/** ï¿½ï¿½ï¿½ï¿½ie7 **/
 .in-bl{
     display:inline-block;
     *display:inline;
