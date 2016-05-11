@@ -9,5 +9,5 @@
 .table td {padding:5px;}
 .table thead td {font-size:18px;font-weight: bolder;color:#242424;}
 .table tbody td {height:20px;color:#9a9a9a;}
-.table tbody tr {border-bottom:1px solid #EEE;}
+.table tbody td {border-bottom:1px solid #EEE;}
 .table .t-edit{display:block;width:21px;height:20px;margin:0 auto;background: url("../images/edit.png") no-repeat center center;}
