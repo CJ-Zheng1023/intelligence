@@ -15,3 +15,8 @@ ul.no-style{
 ul.horizontal>li{
     float: left;
 }
+/** ¼æÈİie7 **/
+.in-bl{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;}
