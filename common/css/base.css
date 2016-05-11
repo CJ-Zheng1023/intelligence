@@ -106,6 +106,7 @@ ul.horizontal>li{
     bottom: 56px;
 }
 .header .case-info ul>li{
+    list-style-type: disc;
 }
 .header .case-info ul>li>span{
     font-size: 18px;
