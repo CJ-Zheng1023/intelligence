@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .left{
     float: left;
 }
@@ -18,7 +19,7 @@ ul>li{
 ul.horizontal>li{
     float: left;
 }
-/** ����ie7 **/
+/** 兼容ie7 **/
 .in-bl{
     display:inline-block;
     *display:inline;
