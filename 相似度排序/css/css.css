@@ -219,3 +219,60 @@
 .main-view .main-right .box .btn-group .button span.btn-icon3{
     background: url("../images/btn-icon3.png") no-repeat 17px center;
 }
+.main-view .main-left .container-page{
+    margin: 0 65px;
+}
+.page{
+    padding: 0 60px;
+    margin: 10px 0;
+    position: relative;
+}
+.page .part1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+}
+.page>.part2{
+    text-align: center;
+}
+.page>.part2>span{
+    font-size: 18px;
+    color: rgb(135,135,135);
+}
+.page .part3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+}
+.page>.part>i.style1{
+    width: 12px;
+}
+.page>.part>i.style2{
+    width: 9px;
+}
+.page>.part>i.first{
+     left: 0;
+     background-image: url("../images/page-first.png");
+ }
+.page>.part>i.prev{
+    right: 0;
+    background-image: url("../images/page-prev.png");
+}
+.page>.part>i.next{
+    left: 0;
+    background-image: url("../images/page-next.png");
+}
+.page>.part>i.last{
+    right: 0;
+    background-image: url("../images/page-last.png");
+}
+.page>.part>i{
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    margin-top: -8.5px;
+}
