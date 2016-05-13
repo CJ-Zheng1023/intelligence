@@ -9,3 +9,99 @@
 .main-view .main-left .box-header .tab-group .center{
     margin: 0 80px;
 }
+.main-view .main-left .box-table table{
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.main-view .main-left .box-table table th{
+    padding: 10px;
+    color: rgb(36,36,36);
+    vertical-align: middle;
+}
+.main-view .main-left .box-table table tbody tr{
+    cursor: pointer;
+}
+.main-view .main-left .box-table table td{
+    padding: 9px 10px;
+    color: rgb(135,135,135);
+    vertical-align: middle;
+}
+.main-view .main-left .box-table table td>p{
+    width: 210px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.main-view .main-left .box-table table tr.active td{
+    background-color: rgb(255,192,0);
+    color: #fff;
+}
+.main-view .main-left .box-table table tr:hover td{
+    color: rgb(255,192,0);
+}
+.main-view .main-right .box-header{
+    padding: 20px 0 15px 0;
+    border-bottom: 1px solid rgb(220,220,220);
+    margin: 0 15px;
+    position: relative;
+}
+.main-view .main-right .box-header h1{
+    font-size: 24px;
+    color: rgb(255,192,0);
+    text-align: center;
+    line-height: 28px;
+}
+.main-view .main-right .box-header>span{
+    font-size: 18px;
+    color: rgb(130,130,130);
+    position: absolute;
+    line-height: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+.main-view .main-right .box-header>span.prev{
+    left: 0;
+    padding-left: 15px;
+    background: url("../images/prev-icon.png") no-repeat 0 center;
+}
+.main-view .main-right .box-header>span.next{
+    padding-right: 15px;
+    background: url("../images/next-icon.png") no-repeat right center;
+    right: 0;
+}
+.main-view .main-right .box-content{
+    padding: 15px 15px 0 15px;
+}
+.main-view .main-right .box-content .tab-item{
+    font-size: 20px;
+    padding: 0 15px;
+}
+.main-view .main-right .box-content .box-content-header{
+    padding: 0 20px;
+}
+.main-view .main-right .box-content .box-content-header .tab-group{
+    float: left;
+}
+.main-view .main-right .box-content .box-content-header .operation-group{
+    float: right;
+    line-height: 30px;
+}
+.main-view .main-right .box-content .box-content-header .operation-group a{
+    color: rgb(1,174,253);
+    font-size: 18px;
+    padding-left: 30px;
+}
+.main-view .main-right .box-content .box-content-header .operation-group a.op1{
+    background: url("../images/op1-icon.png") no-repeat 0 center;
+    margin-right: 30px;
+}
+.main-view .main-right .box-content .box-content-header .operation-group a.op2{
+    background: url("../images/op2-icon.png") no-repeat 0 center;
+    margin-right: 30px;
+}
+.main-view .main-right .box-content .box-content-header .operation-group a.op3{
+    background: url("../images/op3-icon.png") no-repeat 0 center;
+    margin-right: 30px;
+}
