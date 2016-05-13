@@ -19,6 +19,24 @@ ul>li{
 ul.horizontal>li{
     float: left;
 }
+.tab-group{
+    overflow: hidden;
+}
+.tab-group .tab-item{
+    padding: 0 20px;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    border-radius: 15px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    float: left;
+}
+.tab-group .tab-item.active{
+    background-color: rgb(1,174,253);
+    color: #fff;
+}
 /** 兼容ie7 **/
 .in-bl{
     display:inline-block;
