@@ -34,12 +34,15 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+.main-view .main-left .box-table table tr:hover td{
+    color: rgb(255,192,0);
+}
 .main-view .main-left .box-table table tr.active td{
     background-color: rgb(255,192,0);
     color: #fff;
 }
-.main-view .main-left .box-table table tr:hover td{
-    color: rgb(255,192,0);
+.main-view .main-right .box{
+    position: relative;
 }
 .main-view .main-right .box-header{
     padding: 20px 0 15px 0;
@@ -52,6 +55,8 @@
     color: rgb(255,192,0);
     text-align: center;
     line-height: 28px;
+    width: 800px;
+    margin: 0 auto;
 }
 .main-view .main-right .box-header>span{
     font-size: 18px;
@@ -84,6 +89,9 @@
 .main-view .main-right .box-content .box-content-header .tab-group{
     float: left;
 }
+.main-view .main-right .box-content .box-content-header .tab-group .center{
+    margin: 0 55px;
+}
 .main-view .main-right .box-content .box-content-header .operation-group{
     float: right;
     line-height: 30px;
@@ -104,4 +112,110 @@
 .main-view .main-right .box-content .box-content-header .operation-group a.op3{
     background: url("../images/op3-icon.png") no-repeat 0 center;
     margin-right: 30px;
+}
+.main-view .main-right .box-content-body .container{
+    margin-top: 20px;
+}
+.main-view .main-right .box-content-body .container.img-right{
+    padding-right: 200px;
+    position: relative;
+}
+.main-view .main-right .box-content-body .container .information{
+    width: 100%;
+}
+.main-view .main-right .box-content-body .container .information h2{
+    font-size: 18px;
+    color: rgb(255,192,0);
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.main-view .main-right .box-content-body .container .information ul{
+    list-style-type: disc;
+    line-height: 28px;
+    font-size: 18px;
+    color: rgb(68,68,68);
+    margin-left: 40px;
+}
+.main-view .main-right .box-content-body .container .information ul li{
+    padding-left: 250px;
+    position: relative;
+}
+.main-view .main-right .box-content-body .container .information strong{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main-view .main-right .box-content-body .container .information span{
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.main-view .main-right .box-content-body .img-right .image-area{
+    border: 2px solid rgb(1,174,253);
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 177px;
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption{
+    margin: 10px 5px;
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption h2{
+    font-size: 14px;
+    color: rgb(68,68,68);
+    float: left;
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption .op{
+    float: right;
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption .op>a{
+    width: 14px;
+    height: 15px;
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption .op>a.left-round{
+    background-image: url("../images/left-round-icon.png");
+}
+.main-view .main-right .box-content-body .img-right .image-area .figcaption .op>a.right-round{
+    background-image: url("../images/right-round-icon.png");
+}
+.main-view .main-right .box-content-body .img-right .image-area .figure{
+    width: 100%;
+    height: 170px;
+}
+.main-view .main-right .box-footer{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-size: 16px;
+    color: rgb(120,120,120);
+}
+.main-view .main-right .box .btn-group{
+    position: absolute;
+    right: 33px;
+    top: -55px;
+}
+.main-view .main-right .box .btn-group .button{
+    background: url("../images/btn-bg.png") no-repeat;
+    width: 124px;
+    height: 41px;
+    line-height: 41px;
+}
+.main-view .main-right .box .btn-group .button.center{
+    margin: 0 35px;
+}
+.main-view .main-right .box .btn-group .button span{
+    color: #fff;
+    font-size: 24px;
+    padding-left: 50px;
+}
+.main-view .main-right .box .btn-group .button span.btn-icon1{
+    background: url("../images/btn-icon1.png") no-repeat 13px center;
+}
+.main-view .main-right .box .btn-group .button span.btn-icon2{
+    background: url("../images/btn-icon2.png") no-repeat 18px center;
+}
+.main-view .main-right .box .btn-group .button span.btn-icon3{
+    background: url("../images/btn-icon3.png") no-repeat 17px center;
 }

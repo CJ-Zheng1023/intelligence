@@ -124,7 +124,7 @@ ul.horizontal>li{
     left: 20%;
     bottom: 56px;
 }
-.header .case-info ul>li{
+.header .case-info ul{
     list-style-type: disc;
 }
 .header .case-info ul>li>span{
