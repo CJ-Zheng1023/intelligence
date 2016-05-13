@@ -7,7 +7,7 @@
     margin-left: 10px;
 }
 .main-view .main-left .box-header .tab-group .center{
-    margin: 0 80px;
+    margin: 0 15px;
 }
 .main-view .main-left .box-table table{
     width: 100%;
@@ -90,7 +90,7 @@
     float: left;
 }
 .main-view .main-right .box-content .box-content-header .tab-group .center{
-    margin: 0 55px;
+    margin: 0 5px;
 }
 .main-view .main-right .box-content .box-content-header .operation-group{
     float: right;
@@ -99,19 +99,17 @@
 .main-view .main-right .box-content .box-content-header .operation-group a{
     color: rgb(1,174,253);
     font-size: 18px;
-    padding-left: 30px;
+    padding-left: 25px;
+    margin-right: 10px;
 }
 .main-view .main-right .box-content .box-content-header .operation-group a.op1{
     background: url("../images/op1-icon.png") no-repeat 0 center;
-    margin-right: 30px;
 }
 .main-view .main-right .box-content .box-content-header .operation-group a.op2{
     background: url("../images/op2-icon.png") no-repeat 0 center;
-    margin-right: 30px;
 }
 .main-view .main-right .box-content .box-content-header .operation-group a.op3{
     background: url("../images/op3-icon.png") no-repeat 0 center;
-    margin-right: 30px;
 }
 .main-view .main-right .box-content-body .container{
     margin-top: 20px;
@@ -220,7 +218,7 @@
     background: url("../images/btn-icon3.png") no-repeat 17px center;
 }
 .main-view .main-left .container-page{
-    margin: 0 65px;
+    margin: 0 20px;
 }
 .page{
     padding: 0 60px;

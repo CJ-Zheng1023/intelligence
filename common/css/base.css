@@ -8,7 +8,7 @@
 
 body{
     background-color: #fff;
-    min-width: 1675px;
+    min-width: 1245px;
 }
 ul.no-style{
     list-style: none;
@@ -137,7 +137,7 @@ ul.horizontal>li{
 /**       main css  start          **/
 .main{
     position: relative;
-    padding-left: 565px;
+    padding-left: 400px;
     margin-top: -40px;
 }
 .main .main-left{
@@ -145,7 +145,7 @@ ul.horizontal>li{
     left: 0;
     top: 0;
     height: 100%;
-    width: 545px;
+    width: 380px;
 }
 .main .main-right{
     height: 735px;
