@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.jqSelect.css"/>
+</head>
+<body>
+<div name="test_name" data-width="100" data-height="30" id="test" data-border="true" data-zindex="2">
+    <div value="123">123</div>
+    <div value="456">456</div>
+    <div value="789" checked="checked">789dsdfafasddasfadsfasdf</div>
+</div>
+
+
+<div style="margin-top: 100px;margin-left: 100px;position: relative;height: 30px;width: 200px;border: 1px solid #000;">
+    <div style="position: absolute;left: 0;top: 0;font-size: 20px;border-right: 1px solid rgb(204,204,204);" data-height="30" data-width="80" id="test1" data-zindex="1">
+        <div value="123">123</div>
+        <div value="456">456</div>
+        <div value="789" checked="checked">789dsdfafasddasfadsfasdf</div>
+    </div>
+</div>
+<div>
+	<input type="text" />
+</div>
+<div data-width="100" data-height="30" id="test2" data-border="true" data-zindex="2" style="margin-top:20px;">
+    <div value="123">123</div>
+    <div value="456">456</div>
+    <div value="789">789dsdfafasddasfadsfasdf</div>
+</div>
+
+
+<script src="../../jquery-1.8.0.min.js"></script>
+<script src="js/jquery.jqSelect.js"></script>
+<script>
+    $(function(){
+        $("#test").jqSelect();
+        $("#test1").jqSelect();
+        $("#test2").jqSelect();
+        $("#test2").setSelectValue("456");
+    })
+</script>
+</body>
+</html>
