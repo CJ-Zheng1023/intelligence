@@ -55,8 +55,11 @@
     color: rgb(255,192,0);
     text-align: center;
     line-height: 28px;
-    width: 800px;
+    width: 670px;
     margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .main-view .main-right .box-header>span{
     font-size: 18px;
@@ -128,7 +131,6 @@
     margin-bottom: 5px;
 }
 .main-view .main-right .box-content-body .container .information ul{
-    list-style-type: disc;
     line-height: 28px;
     font-size: 18px;
     color: rgb(68,68,68);
@@ -145,7 +147,7 @@
     top: 0;
 }
 .main-view .main-right .box-content-body .container .information span{
-    width: 100%;
+    width: 95%;
     text-align: left;
     word-wrap: break-word;
     word-break: break-all;
