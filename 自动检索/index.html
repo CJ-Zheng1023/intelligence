@@ -66,7 +66,7 @@
 
     <!-- main-left -->
     <div class="main-left">
-        <div class="box">
+        <div class="box au-box">
             <div class="over-auto">
                 <div class="au-row">
                     <div class="au-type clear">
@@ -103,8 +103,8 @@
                     <div class="logic clear">
                         <div class="logic-ti">选择数据库</div>
                         <div class="logic-radio-box clear">
-                            <div class="logic-radio active">CNABS</div>
-                            <div class="logic-radio">SIPOABS</div>
+                            <div class="logic-radio active fix-width">CNABS</div>
+                            <div class="logic-radio fix-width">SIPOABS</div>
                         </div>
 
                     </div>
@@ -190,6 +190,7 @@
                         <a href="javascript:void(0);"></a>
                     </div>
                 </div>
+
             </div>
             <div class="au-btn-row">
                 <a href="javascrip:void(0);" class="au-btn-g">检索</a>
@@ -202,7 +203,7 @@
 
     <!-- main-right -->
     <div class="main-right">
-        <div class="box">
+        <div class="box ">
             <div class="au-tab-row">
                 <ul class="clear">
                     <li class="active"><a href="javascript:void(0);">前置检索</a></li>
@@ -259,9 +260,8 @@
                                         </ul>
                                     </div>
                                     <div class="au-abs">
-                                        <ul>
-                                            <li><span>摘要：</span><span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span></li>
-                                        </ul>
+
+                                        <p><span>摘要：</span> <span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span> </p>
                                     </div>
 
                                 </div>
@@ -298,9 +298,8 @@
                                         </ul>
                                     </div>
                                     <div class="au-abs">
-                                        <ul>
-                                            <li><span>摘要：</span><span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span></li>
-                                        </ul>
+                                        <p><span>摘要：</span> <span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span> </p>
+
                                     </div>
 
                                 </div>
@@ -337,9 +336,8 @@
                                         </ul>
                                     </div>
                                     <div class="au-abs">
-                                        <ul>
-                                            <li><span>摘要：</span><span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span></li>
-                                        </ul>
+                                        <p><span>摘要：</span> <span>本发明公开了一种发光二极管（LED）封装件，该LED封装件的制造方法和包括该LED的背光。该......</span> </p>
+
                                     </div>
 
                                 </div>
@@ -353,7 +351,7 @@
                             </div>
                             <div class="page-input">
                                 <div>跳转至</div>
-                                <div class="clear">
+                                <div class="clear page-margin">
                                     <div class="page-input-l "></div>
                                     <div class="page-input-m ">
                                         <input type="text" class="input" />
@@ -363,13 +361,23 @@
                                 <div>页</div>
                             </div>
                         </div>
-                        <div class="page-list"></div>
+                        <div class="page-list">
+                            <ul>
+                                <li class="page-list-box page-first"><a href="javascript:void(0);"></a></li>
+                                <li class="page-list-box page-prior"><a href="javascript:void(0);"></a></li>
+                                <li class="page-list-box active"><a href="javascript:void(0);">1</a></li>
+                                <li class="page-list-box"><a href="javascript:void(0);">2</a></li>
+                                <li class="page-list-box"><a href="javascript:void(0);">3</a></li>
+                                <li class="page-list-box"><a href="javascript:void(0);">4</a></li>
+                                <li class="page-list-box"><a href="javascript:void(0);">5</a></li>
+                                <li class="page-list-box page-next"><a href="javascript:void(0);"></a></li>
+                                <li class="page-list-box page-last"><a href="javascript:void(0);"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
 
-            </div>
         </div>
     </div>
     <!-- /main-right -->
@@ -379,39 +387,45 @@
 
 <!-- footer -->
 <div class="footer">
+
     <table class="table">
         <thead>
         <tr>
-            <td>检索要素</td>
-            <td>分类号</td>
-            <td>关键词</td>
-            <td>编辑</td>
+            <td>编号</td>
+            <td>检索式</td>
+            <td>命中数</td>
+            <td>数据库</td>
+            <td>浏览</td>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>01</td>
-            <td>H02M3/07  5H730</td>
-            <td>物理、光学、强度</td>
-            <td><a class="t-edit" href="javascript:void(0);"></a></td>
+            <td>((G02F1/1362)/CPC)AND(液晶 AND 电容线 AND 电极）</td>
+            <td>0</td>
+            <td>CNASB</td>
+            <td><a class="t-browse" href="javascript:void(0);"></a></td>
         </tr>
         <tr>
-            <td>02</td>
-            <td>H02M3/07  5H730</td>
-            <td>偏振或颜色的控制</td>
-            <td align="center" rowspan="1" colspan="1"><a class="t-edit" href="javascript:void(0);"></a></td>
+            <td>01</td>
+            <td>((G02F1/1362)/CPC)AND(液晶 AND 电容线 AND 电极）</td>
+            <td>0</td>
+            <td>CNASB</td>
+            <td><a class="t-browse" href="javascript:void(0);"></a></td>
         </tr>
         <tr>
-            <td>03</td>
-            <td>H02M3/07  5H730</td>
-            <td>液晶单元的工作</td>
-            <td><a class="t-edit" href="javascript:void(0);"></a></td>
+            <td>01</td>
+            <td>((G02F1/1362)/CPC)AND(液晶 AND 电容线 AND 电极）</td>
+            <td>0</td>
+            <td>CNASB</td>
+            <td><a class="t-browse" href="javascript:void(0);"></a></td>
         </tr>
         <tr>
-            <td>04</td>
-            <td>H02M3/07  5H730</td>
-            <td>液晶单元的工作</td>
-            <td><a class="t-edit" href="javascript:void(0);"></a></td>
+            <td>01</td>
+            <td>((G02F1/1362)/CPC)AND(液晶 AND 电容线 AND 电极）</td>
+            <td>0</td>
+            <td>CNASB</td>
+            <td><a class="t-browse" href="javascript:void(0);"></a></td>
         </tr>
         </tbody>
     </table>

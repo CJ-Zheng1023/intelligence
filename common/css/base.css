@@ -175,19 +175,31 @@ ul.horizontal>li{
 .table tbody td {height:20px;color:#9a9a9a;}
 .table tbody td {border-bottom:1px solid #EEE;}
 .table .t-edit{display:block;width:21px;height:20px;margin:0 auto;background: url("../images/edit.png") no-repeat center center;}
+.table .t-browse{display:block;width:25px;height:20px;margin:0 auto;background: url("../images/browse.png") no-repeat center center;}
 /**       footer css end          **/
 
 /** 分页**/
-.page-box {width:100%}
+.page-box {width:100%;margin-top:20px;}
 .page-box .page-count {float:left;height:25px;font-size: 18.55px;color:#787878;line-height: 25px;}
 .page-box .page-count .page-input{float:left;margin-left:81px;}
 .page-box .page-count .page-input > div{float:left;}
+.page-box .page-count .page-input  div.page-margin{margin: 0 5px;}
 .page-box .page-count .page-input .page-input-l {float:left;width:10px;height:25px;background:url("../images/page-input-l.png") no-repeat center center;}
 .page-box .page-count .page-input .page-input-r {float:left;width:10px;height:25px;background:url("../images/page-input-r.png") no-repeat center center;}
 .page-box .page-count .page-input .page-input-m {position:relative;float:left;width:40px;height:21px;border-top:2px solid #bfbfbf;border-bottom:2px solid #bfbfbf;}
 .page-box .page-count .page-input .page-input-m input {position:absolute;width:40px;height:19px;padding:1px 0;}
 .page-box .page-count .page-num{float:left;}
+
 .page-box .page-list {float:right;}
+.page-box .page-list .page-list-box {float:left;display:block;height:25px;width:25px;margin:0 10px;}
+.page-box .page-list .page-list-box a {display:block;width:25px;height:25px;font-size:18.55px;text-align:center;line-height: 25px;color:#787878;}
+.page-box .page-list .page-list-box:hover a ,.page-box .page-list .page-list-box.active a{color:#01aefd;}
+.page-box .page-list .page-first{background: url("../images/page-first.png") no-repeat center center;}
+.page-box .page-list .page-prior{background: url("../images/page-prior.png") no-repeat center center;}
+.page-box .page-list .page-next{background: url("../images/page-next.png") no-repeat center center;}
+.page-box .page-list .page-last{background: url("../images/page-last.png") no-repeat center center;}
+
+
 
 
 
