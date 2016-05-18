@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../common/css/base.css"/>
     <link rel="stylesheet" href="../common/css/public.css"/>
     <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="../common/jquery/plugin/jqSelect/css/jquery.jqSelect.css"/>
 </head>
 <body>
 <!-- header -->
@@ -67,10 +68,20 @@
     <!-- main-left -->
     <div class="main-left">
         <div class="box au-box">
-            <div class="over-auto">
+            <div class="over-auto p-i7">
                 <div class="au-row">
                     <div class="au-type clear">
-                        <div class="au-select"></div>
+                        <div class="au-select">
+                            <div class="au-input-l"></div>
+                            <div class="au-input-m">
+                                <div data-width="98" data-height="43" id="test2" data-border="" data-zindex="2" >
+                                    <div value="123">123</div>
+                                    <div value="456">456</div>
+                                    <div value="789">789</div>
+                                </div>
+                            </div>
+                            <div class="au-input-r"></div>
+                        </div>
                         <div class="au-input">
                             <div class="au-input-l"></div>
                             <div class="au-input-m">
@@ -145,6 +156,32 @@
                                 <div class="au-input-r"></div>
                             </div>
                             <a href="javascript:void(0);" class="au-operation add"></a>
+                        </label>
+                    </div>
+                    <div class="clear">
+                        <label>
+                            <div class="au-ti">解决的技术问题</div>
+                            <div class="au-input">
+                                <div class="au-input-l"></div>
+                                <div class="au-input-m">
+                                    <input type="text" class="input" value="液晶">
+                                </div>
+                                <div class="au-input-r"></div>
+                            </div>
+
+                        </label>
+                    </div>
+                    <div class="clear">
+                        <label>
+                            <div class="au-ti">解决的技术问题</div>
+                            <div class="au-input">
+                                <div class="au-input-l"></div>
+                                <div class="au-input-m">
+                                    <input type="text" class="input" value="液晶">
+                                </div>
+                                <div class="au-input-r"></div>
+                            </div>
+
                         </label>
                     </div>
                     <div class="clear">
@@ -431,6 +468,10 @@
     </table>
 </div>
 <!-- /footer -->
-<script src="js/jquery-1.8.3.js"></script>
+<script src="../common/jquery/jquery-1.8.0.min.js"></script>
+<script src="../common/jquery/plugin/jqSelect/js/jquery.jqSelect.js"></script>
+<script>
+    $("#test2").jqSelect();
+</script>
 </body>
 </html>

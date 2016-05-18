@@ -199,6 +199,21 @@ ul.horizontal>li{
 .page-box .page-list .page-next{background: url("../images/page-next.png") no-repeat center center;}
 .page-box .page-list .page-last{background: url("../images/page-last.png") no-repeat center center;}
 
+/*input*/
+.input{background-color:transparent;border:0;outline: none;}
+.search-input {float:right;}
+.search-input > div {float:left;}
+.search-input .search-l {width:19px;height:40px;background:url("../images/search-l.png") no-repeat center center;}
+.search-input .search-r {width:19px;height:40px;background:url("../images/search-r.png") no-repeat center center;}
+.search-input .search-m {position:relative;width:190px;height:38px;padding-right:26px;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;}
+.search-input .search-m input {height:18px;width:100%;padding:10px 0;font-size:16.49px;color:#d0d0d0;line-height: 18px;}
+.search-input .search-m .search-btn{position:absolute;top:0;right:0;display:block;width:26px;height:38px;background: url("../images/search-img.png") no-repeat center center;}
+
+/**IE7的hack  **/
+.p-i7{*position:relative;*left:0;*top:0;}
+
+
+
 
 
 
