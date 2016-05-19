@@ -15,6 +15,10 @@
     padding-left: 30px;
     background-image: url("../images/title-icon.png");
 }
+.box .box-header h2.box-header-title.blue{
+    color: rgb(68,68,68);
+    background-image: url("../images/title-blue-icon.png");
+}
 .graph{
     margin: 0 auto;
 }
@@ -42,4 +46,24 @@ table.custom-table td.special{
 }
 table.custom-table td.left{
     text-align: left;
+}
+.article{
+    padding: 25px 0;
+}
+.article h3.small-tittle{
+    padding-left: 15px;
+    background: url("../images/spot.png") no-repeat left center;
+    color: rgb(1,174,253);
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+.article p.content{
+    color: rgb(53,53,53);
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.article p.content.cn{
+    text-indent: 36px;
 }
