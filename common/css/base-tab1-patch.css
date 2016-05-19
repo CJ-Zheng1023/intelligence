@@ -1,0 +1,43 @@
+.box .box-header{
+    padding: 5px 23px;
+    border-bottom: 1px solid #EEE;
+    overflow: hidden;
+}
+.box .box-header h2.box-header-title{
+    padding-left: 26px;
+    font-size: 24.81px;
+    line-height: 40px;
+    height: 40px;
+    color: #ffc000;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.graph{
+    margin: 0 auto;
+}
+table.custom-table{
+    width: 100%;
+}
+table.custom-table th{
+    padding: 25px 5px;
+    vertical-align: middle;
+    color: rgb(36,36,36);
+    font-size: 18px;
+    line-height: 22px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+table.custom-table td{
+    font-size: 16px;
+    color: rgb(106,106,106);
+    vertical-align: middle;
+    padding: 7px 5px;
+    text-align: center;
+}
+table.custom-table td.special{
+    color: rgb(1,174,253);
+}
+table.custom-table td.left{
+    text-align: left;
+}

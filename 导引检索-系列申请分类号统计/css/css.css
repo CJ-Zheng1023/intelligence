@@ -1,0 +1,45 @@
+.tab1-3 .box-header h2.box-header-title{
+    padding-left: 30px;
+    background-image: url("../images/tab1-3-title-icon.png");
+}
+.tab1-3 .tab-group-area{
+    border-bottom: 1px solid #EEE;
+    padding: 15px 0 15px 45px;
+}
+.tab1-3 .tab-group-area .tab-group .tab-item{
+    margin-right: 15px;
+}
+.tab1-3 .box-content{
+    padding-left: 445px;
+    position: relative;
+}
+.tab1-3 .box-content .le-content{
+    width: 445px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.tab1-3 .box-content .le-content .wrapper{
+    height: 100%;
+    border-right: 1px solid #EEE;
+}
+.tab1-3 .box-content .le-content .wrapper .graph-area{
+    padding-top: 25px;
+}
+.tab1-3 .box-content .le-content .wrapper .graph-area .graph{
+    width: 420px;
+    height: 470px;
+}
+.tab1-3 .box-content .ri-content{
+    height: 625px;
+}
+.tab1-3 .box-content .ri-content .wrapper{
+    width: 100%;
+}
+.tab1-3 .box-content .ri-content .wrapper .table-container{
+    padding: 0 20px;
+}
+.tab1-3 .page-box .page-list .page-list-box{
+    margin: 0 5px;
+}
