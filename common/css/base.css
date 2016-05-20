@@ -37,6 +37,10 @@ ul.horizontal>li{
     background-color: rgb(1,174,253);
     color: #fff;
 }
+table td{
+	vertical-align: middle;
+}
+
 /** 兼容ie7 **/
 .in-bl{
     display:inline-block;
@@ -175,7 +179,6 @@ ul.horizontal>li{
 .table tbody td {height:20px;color:#9a9a9a;}
 .table tbody td {border-bottom:1px solid #EEE;}
 .table .t-edit{display:block;width:21px;height:20px;margin:0 auto;background: url("../images/edit.png") no-repeat center center;}
-.table .t-browse{display:block;width:25px;height:20px;margin:0 auto;background: url("../images/browse.png") no-repeat center center;}
 /**       footer css end          **/
 
 /** 分页**/
@@ -198,7 +201,6 @@ ul.horizontal>li{
 .page-box .page-list .page-prior{background: url("../images/page-prior.png") no-repeat center center;}
 .page-box .page-list .page-next{background: url("../images/page-next.png") no-repeat center center;}
 .page-box .page-list .page-last{background: url("../images/page-last.png") no-repeat center center;}
-
 /*input*/
 .input{background-color:transparent;border:0;outline: none;}
 .search-input {float:right;}
@@ -212,11 +214,72 @@ ul.horizontal>li{
 /**IE7的hack  **/
 .p-i7{*position:relative;*left:0;*top:0;}
 
-
-
-
-
-
-
-
-
+.box .box-header{
+    padding: 5px 23px;
+    border-bottom: 1px solid #EEE;
+    overflow: hidden;
+}
+.box .box-header h2.box-header-title{
+    padding-left: 26px;
+    font-size: 24.81px;
+    line-height: 40px;
+    height: 40px;
+    color: #ffc000;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    background-image: url("../images/title-icon.png");
+}
+.box .box-header h2.box-header-title.blue{
+    color: rgb(68,68,68);
+    background-image: url("../images/title-blue-icon.png");
+}
+.graph{
+    margin: 0 auto;
+}
+table.custom-table{
+    width: 100%;
+}
+table.custom-table th{
+    padding: 25px 5px;
+    vertical-align: middle;
+    color: rgb(36,36,36);
+    font-size: 18px;
+    line-height: 22px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+table.custom-table td{
+    font-size: 16px;
+    color: rgb(106,106,106);
+    vertical-align: middle;
+    padding: 7px 5px;
+    text-align: center;
+}
+table.custom-table td.special{
+    color: rgb(1,174,253);
+}
+table.custom-table td.left{
+    text-align: left;
+}
+.article{
+    padding: 15px 0;
+}
+.article h3.small-tittle{
+    padding-left: 15px;
+    background: url("../images/spot.png") no-repeat left center;
+    color: rgb(1,174,253);
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.article p.content{
+    color: rgb(53,53,53);
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.article p.content.cn{
+    text-indent: 36px;
+}
