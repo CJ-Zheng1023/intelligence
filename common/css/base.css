@@ -290,3 +290,48 @@ table.custom-table td.left{
 .article p.content.cn{
     text-indent: 36px;
 }
+.selector-row{
+    padding: 0 15px 0 50px;
+    position: relative;
+    overflow: hidden;
+    height: 34px;
+}
+.selector-row strong.field{
+    color: rgb(94,94,94);
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 34px;
+    line-height: 34px;
+}
+.selector-row .selector-list .selector{
+    width: 110px;
+    height: 24px;
+    margin: 5px 8px;
+    border-radius: 12px;
+    background-color: rgb(238,238,238);
+    font-size: 16px;
+    color: rgb(41,41,41);
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: left;
+    white-space: nowrap;
+}
+.selector-row .selector-list .selector.active{
+    background-color: #01aefd;
+    color: #fff;
+}
+.selector-row i.arrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 15px;
+    height: 8px;
+    cursor: pointer;
+}
+.selector-row i.arrow.arrow-down{
+    background-image: url("../images/selector-arrow-down.png");
+}

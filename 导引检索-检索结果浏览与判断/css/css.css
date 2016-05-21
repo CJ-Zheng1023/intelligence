@@ -1,0 +1,151 @@
+.tab7-1{
+    position: relative;
+    height: 100%;
+}
+.tab7-1-box-top .box .box-header h2.box-header-title{
+    background-image: url("../images/top-icon.png");
+}
+.tab7-1-box-bottom .box .box-header h2.box-header-title{
+    background-image: url("../images/bottom-icon.png");
+}
+.main .tab7-1 .tab7-1-box-top{
+    height: 285px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.main .tab7-1 .tab7-1-box-bottom{
+    height: 435px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.tab7-1 .operations{
+    overflow: hidden;
+    padding: 7px 0;
+}
+.tab7-1 .operations .item{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    background-color: #fff;
+    color: rgb(1,174,253);
+    font-size: 17px;
+    border: 1px solid rgb(1,174,253);
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    padding: 0 15px;
+    text-align: center;
+    float: left;
+    margin: 0 5px;
+}
+.tab7-1 .operations .item.active{
+    background-color: rgb(1,174,253);
+    color: #fff;
+}
+.tab7-1 .tab7-1-box-top .operations{
+    padding-right: 50px;
+    position: relative;
+}
+.tab7-1 .tab7-1-box-top .operations i.add-icon{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 29px;
+    height: 29px;
+    margin-top: -14px;
+    background-image: url("../images/add-operation.png");
+}
+.tab7-1 .tab7-1-box-top .operations .item{
+    width: 78px;
+    padding: 0;
+}
+.tab7-1 .box .box-content{
+    padding: 15px 20px;
+}
+.tab7-1 .box .box-content .box-content-area{
+    width: 100%;
+}
+.tab7-1 .box .box-content .box-content-area .textarea-wrapper{
+    padding-left: 20px;
+    background-color: rgb(238,238,238);
+    border-radius: 3px;
+}
+.tab7-1 .box .box-content .box-content-area textarea{
+    height: 115px;
+    border: none;
+    padding: 20px 0;
+    background-color: transparent;
+    width: 100%;
+}
+.tab7-1 .box .box-content .box-content-area textarea:focus{
+    border: none;
+    outline: none;
+}
+.tab7-1 .btn-group .btn{
+    width: 115px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    background-color: rgb(1,174,253);
+    border-radius: 17px;
+    margin-left: 10px;
+}
+.tab7-1 .btn-group .btn.yellow{
+    background-color: rgb(255,192,0);
+}
+.tab7-1 .btn-group .btn.red{
+    background-color: rgb(222,72,56);
+}
+.tab7-1 .tab7-1-box-top .btn-area{
+    margin-top: 15px;
+}
+.tab7-1 .tab7-1-box-bottom .btn-area{
+    margin-top: 10px;
+}
+.tab7-1 .tab7-1-box-bottom .operation-area{
+    border-bottom: rgb(238,238,238) 1px solid;
+    padding: 0 23px;
+}
+.tab7-1 .tab7-1-box-bottom .box .box-content{
+    padding-top: 0;
+    height: 330px;
+    overflow-y: auto;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper{
+    width: 100%;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table{
+    width: 100%;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table th{
+    font-size: 18px;
+    color: rgb(36,36,36);
+    padding: 15px 6px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table td{
+    font-size: 18px;
+    color: rgb(106,106,106);
+    padding: 13px 6px;
+    text-align: center;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table td>a.btn-view{
+    background-image: url("../images/view-icon.png");
+    width: 25px;
+    height: 15px;
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table tr.bg td{
+    background-color: rgb(238,238,238);
+}
+.tab7-1 .tab7-1-box-bottom .table-wrapper table tr.bg td.number{
+    text-align: right;
+}
