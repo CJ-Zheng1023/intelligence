@@ -1,0 +1,23 @@
+.tab4-1 .box-content{
+    padding: 15px 35px;
+}
+.tab4-1 .box-content .selector-area{
+    padding: 20px 100px 40px 10px;
+}
+.tab4-1 .box-content .fields{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tab4-1 .box-content .fields .row{
+    margin: 13px 0;
+}
+.tab4-1 .box-content .fields .row strong.field{
+    width: 55px;
+    text-align: right;
+    color: rgb(68,68,68);
+    font-size: 16px;
+}
+.tab4-1 .box-content .fields .row span.value{
+    color: rgb(68,68,68);
+    font-size: 16px;
+}

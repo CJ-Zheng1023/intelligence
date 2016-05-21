@@ -1,69 +1,45 @@
-.box .box-header{
-    padding: 5px 23px;
-    border-bottom: 1px solid #EEE;
+.selector-row{
+    padding: 0 15px 0 50px;
+    position: relative;
     overflow: hidden;
+    height: 34px;
 }
-.box .box-header h2.box-header-title{
-    padding-left: 26px;
-    font-size: 24.81px;
-    line-height: 40px;
-    height: 40px;
-    color: #ffc000;
-    float: left;
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 30px;
-    background-image: url("../images/title-icon.png");
-}
-.box .box-header h2.box-header-title.blue{
-    color: rgb(68,68,68);
-    background-image: url("../images/title-blue-icon.png");
-}
-.graph{
-    margin: 0 auto;
-}
-table.custom-table{
-    width: 100%;
-}
-table.custom-table th{
-    padding: 25px 5px;
-    vertical-align: middle;
-    color: rgb(36,36,36);
-    font-size: 18px;
-    line-height: 22px;
-    word-wrap: break-word;
-    word-break: break-all;
-}
-table.custom-table td{
+.selector-row strong.field{
+    color: rgb(94,94,94);
     font-size: 16px;
-    color: rgb(106,106,106);
-    vertical-align: middle;
-    padding: 7px 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 34px;
+    line-height: 34px;
+}
+.selector-row .selector-list .selector{
+    width: 110px;
+    height: 24px;
+    margin: 5px 8px;
+    border-radius: 12px;
+    background-color: rgb(238,238,238);
+    font-size: 16px;
+    color: rgb(41,41,41);
     text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: left;
+    white-space: nowrap;
 }
-table.custom-table td.special{
-    color: rgb(1,174,253);
+.selector-row .selector-list .selector.active{
+    background-color: #01aefd;
+    color: #fff;
 }
-table.custom-table td.left{
-    text-align: left;
+.selector-row i.arrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 15px;
+    height: 8px;
+    cursor: pointer;
 }
-.article{
-    padding: 25px 0;
-}
-.article h3.small-tittle{
-    padding-left: 15px;
-    background: url("../images/spot.png") no-repeat left center;
-    color: rgb(1,174,253);
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 25px;
-}
-.article p.content{
-    color: rgb(53,53,53);
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 10px;
-}
-.article p.content.cn{
-    text-indent: 36px;
+.selector-row i.arrow.arrow-down{
+    background-image: url("../images/selector-arrow-down.png");
 }
